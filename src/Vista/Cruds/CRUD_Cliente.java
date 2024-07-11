@@ -17,7 +17,7 @@ public class CRUD_Cliente extends javax.swing.JFrame {
 
     static ArrayList<Cliente> listaCliente = new ArrayList<>();
 
-    
+    //list
 
     public static List<Cliente> getListaClienteBase(ObjectContainer BaseFinal) {
         List<Cliente> listaClienteBase = new ArrayList<>();
