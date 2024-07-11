@@ -257,7 +257,7 @@ public class CRUD_Proveedor extends javax.swing.JFrame {
 
         btnSalir.setBackground(new java.awt.Color(0, 21, 27));
         btnSalir.setForeground(new java.awt.Color(255, 255, 255));
-        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/iconos/Salir 30x30.png"))); // NOI18N
+        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/Salir 30x30.png"))); // NOI18N
         btnSalir.setText("Salir");
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -491,7 +491,7 @@ public class CRUD_Proveedor extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_txtTipoProveedorKeyTyped
 
-    static ObjectContainer BaseFinal = Db4o.openFile("C:\\Users\\aberr\\Escritorio\\POO\\BASE DE PROYECTO\\BaseFinal.yap");
+    static ObjectContainer BaseFinal = Db4o.openFile("C:\\BaseDeDatos\\BaseFinal.yap");
     /**
      * @param args the command line arguments
      */
