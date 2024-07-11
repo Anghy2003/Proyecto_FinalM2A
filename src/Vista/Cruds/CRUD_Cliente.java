@@ -28,9 +28,7 @@ public class CRUD_Cliente extends javax.swing.JFrame {
         return listaClienteBase;
     }
 
-    /**
-     * Creates new form CRUD_Proveedor
-     */
+
     public CRUD_Cliente() {
         initComponents();
     }
